@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="formatos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./receitas.html">Receitas</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./cadastro.html">Cadastro</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form class="container-fluid">
+        <h1>Efetue seu cadastro</h1>
+        <div class="row justify-content-start">
+          <label for="nome" class="col-1">Nome</label>
+          <input type="text" name="nome" class="col-5" />
+        </div>
+        <div class="row justify-content-start">
+          <label for="email" class="col-1">E-mail</label>
+          <input type="email" name="email" class="col-5" />
+        </div>
+        <div class="row justify-content-start">
+          <label for="cep" class="col-1">CEP</label>
+          <input type="text" name="cep" class="col-3" />
+        </div>
+        <div class="row justify-content-start">
+          <label for="rua" class="col-1">Rua</label>
+          <input type="text" name="rua" class="col-5" />
+        </div>
+        <div class="row justify-content-start">
+          <label for="numero" class="col-1">N.º</label>
+          <input type="number" name="numero" class="col-1" />
+          <label for="complemento" class="col-1">Complemento</label>
+          <input type="text" name="complemento" class="col-3" />
+        </div>
+        <div class="row justify-content-start">
+          <label for="cidade" class="col-1">Cidade</label>
+          <input type="text" name="cidade" class="col-3" />
+          <label for="uf" class="col-1">UF</label>
+          <input type="text" name="uf" class="col-1" />
+        </div>
+        <div class="row justify-content-around">
+          <button class="col-1">Limpar</button>
+          <button class="col-1">Cadastrar</button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      &copy; 2023. Desenvolvido por
+      <a href="https://github.com/guedesert">Emanuel Guedes</a>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
