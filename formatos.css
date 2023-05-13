@@ -17,16 +17,22 @@ main {
   align-items: center;
   justify-content: center;
 }
-#home {
+#home,
+#cadastro {
   flex-direction: column;
+  height: calc(100vh - 85px);
+}
+#home {
   text-align: center;
+}
+#receitas {
+  align-items: start;
 }
 #logo {
   height: 50px;
 }
 .card {
-  margin-top: 25px;
-  margin-bottom: 50px;
+  margin: 25px 10px 50px;
 }
 h1,
 .card-title {
@@ -36,6 +42,10 @@ h1,
 }
 h5 {
   text-align: center;
+}
+input[type="checkbox"]:checked {
+  background-color: #ff8400;
+  border: 1px solid #cc1b1b;
 }
 .card-text {
   text-align: justify;
