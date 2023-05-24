@@ -1,0 +1,32 @@
+main {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 10px;
+  width: 250px;
+  height: 470px;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 125px;
+}
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+.card-text {
+  text-align: justify;
+}
+@media (max-width: 575px) {
+  main {
+    margin-top: 70px;
+    padding-bottom: 30px;
+    height: auto;
+  }
+  .card {
+    margin: 10px;
+    width: 200px;
+    height: 450px;
+  }
+}
