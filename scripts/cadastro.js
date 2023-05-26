@@ -77,23 +77,23 @@ formulario.addEventListener("submit", function () {
     uf = uf.value
   //Concatena todos os valores em uma variável.
   var texto =
-    "Cadastro realizado no site\nNome: " +
+    "Cadastro%20realizado%20no%20site\nNome:%20" +
     nome +
-    "\nE-mail: " +
+    "\nE-mail:%20" +
     email +
-    "\nCEP: " +
+    "\nCEP:%20" +
     cep +
-    "\nRua: " +
+    "\nRua:%20" +
     rua +
-    "\nN.º: " +
+    "\nN.º:%20" +
     numero +
-    "\nComplemento: " +
+    "\nComplemento:%20" +
     complemento +
-    "\nBairro: " +
+    "\nBairro:%20" +
     bairro +
-    "\nCidade: " +
+    "\nCidade:%20" +
     cidade +
-    "\nUF: " +
+    "\nUF:%20" +
     uf
   //Insere os dados no campo oculto dentro do formulário para realizar o envio por e-mail.
   this.querySelector("input[name=body]").setAttribute("value", texto)
