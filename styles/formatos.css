@@ -36,6 +36,7 @@ h1 {
   font-weight: bold;
 }
 form {
+  margin: 15px;
   text-align: left;
   display: flex;
   flex-direction: column;
