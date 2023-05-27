@@ -37,58 +37,58 @@ Além disso, é interessante que você tenha um bom editor para trabalhar com os
 Durante o projeto foram desenvolvidas 03 páginas com as seguintes especificações:
 
 <table>
-    <tr>
-      <th>Página</th>
-      <th>Especificações</th>
-    </tr>
-    <tr>
-      <td>home.html <a href="https://guedesert.github.io/meu-primeiro-site-cringe/pages/home.html" target="_blank">↗️</a></td>
-      <td>
-        <ul>
-          <li>Definir a estrutura básica da página em HTML</li>
-          <li>Incluir elementos semânticos para estruturar o site</li>
-          <li>Criar uma área para o menu</li>
-          <li>Adotar classes Bootstrap na formatação da página</li>
-          <li>Adicionar uma imagem como logotipo do site</li>
-          <li>Definir a área principal com logotipo, título e mensagem de boas-vindas</li>
-          <li>Criar uma área de rodapé com informações de copyright</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>receitas.html <a href="https://guedesert.github.io/meu-primeiro-site-cringe/pages/receitas.html" target="_blank">↗️</a></td>
-      <td>
-        <ul>
-          <li>Definir a estrutura básica da página em HTML</li>
-          <li>Incluir elementos semânticos para estruturar o site</li>
-          <li>Criar uma área para o menu</li>
-          <li>Definir a área principal com a apresentação do conjunto de receitas</li>
-          <li>Apresentar as receitas em divs, organizadas no modo flex</li>
-          <li>Organizar cada div com nome da receita, foto do prato, itens utilizados e modo de preparo</li>
-          <li>Adotar classes Bootstrap na formatação da página</li>
-          <li>Criar uma área de rodapé com informações de copyright</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>cadastro.html <a href="https://guedesert.github.io/meu-primeiro-site-cringe/pages/cadastros.html" target="_blank">↗️</a></td>
-      <td>
-        <ul>
-          <li>Definir a estrutura básica da página em HTML</li>
-          <li>Incluir elementos semânticos para estruturar o site</li>
-          <li>Criar uma área para o menu</li>
-          <li>Definir a área principal com título e um formulário de cadastro</li>
-          <li>Adotar classes Bootstrap na formatação da página</li>
-          <li>Utilizar campos obrigatórios como nome, e-mail, rua, número, complemento, cidade, estado e CEP</li>
-          <li>Utilizar os tipos corretos para cada campo de entrada, de acordo com os padrões do HTML5</li>
-          <li>Enviar as informações do formulário para um endereço de e-mail</li>
-          <li>Criar uma área de rodapé com informações de copyright</li>
-          <li>Utilizar o modelo de colunas do Bootstrap para organizar o conteúdo do formulário e da página como um todo</li>
-          <li>Acrescentar um menu de navegação na área semântica de topo (header)</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
+  <tr>
+    <th>Página</th>
+    <th>Especificações</th>
+  </tr>
+  <tr>
+    <td>home.html <a href="https://guedesert.github.io/meu-primeiro-site-cringe/pages/home.html" target="_blank">↗️</a></td>
+    <td>
+      <ul>
+        <li>Definir a estrutura básica da página em HTML</li>
+        <li>Incluir elementos semânticos para estruturar o site</li>
+        <li>Criar uma área para o menu</li>
+        <li>Adotar classes Bootstrap na formatação da página</li>
+        <li>Adicionar uma imagem como logotipo do site</li>
+        <li>Definir a área principal com logotipo, título e mensagem de boas-vindas</li>
+        <li>Criar uma área de rodapé com informações de copyright</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>receitas.html <a href="https://guedesert.github.io/meu-primeiro-site-cringe/pages/receitas.html" target="_blank">↗️</a></td>
+    <td>
+      <ul>
+        <li>Definir a estrutura básica da página em HTML</li>
+        <li>Incluir elementos semânticos para estruturar o site</li>
+        <li>Criar uma área para o menu</li>
+        <li>Definir a área principal com a apresentação do conjunto de receitas</li>
+        <li>Apresentar as receitas em divs, organizadas no modo flex</li>
+        <li>Organizar cada div com nome da receita, foto do prato, itens utilizados e modo de preparo</li>
+        <li>Adotar classes Bootstrap na formatação da página</li>
+        <li>Criar uma área de rodapé com informações de copyright</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>cadastro.html <a href="https://guedesert.github.io/meu-primeiro-site-cringe/pages/cadastros.html" target="_blank">↗️</a></td>
+    <td>
+      <ul>
+        <li>Definir a estrutura básica da página em HTML</li>
+        <li>Incluir elementos semânticos para estruturar o site</li>
+        <li>Criar uma área para o menu</li>
+        <li>Definir a área principal com título e um formulário de cadastro</li>
+        <li>Adotar classes Bootstrap na formatação da página</li>
+        <li>Utilizar campos obrigatórios como nome, e-mail, rua, número, complemento, cidade, estado e CEP</li>
+        <li>Utilizar os tipos corretos para cada campo de entrada, de acordo com os padrões do HTML5</li>
+        <li>Enviar as informações do formulário para um endereço de e-mail</li>
+        <li>Criar uma área de rodapé com informações de copyright</li>
+        <li>Utilizar o modelo de colunas do Bootstrap para organizar o conteúdo do formulário e da página como um todo</li>
+        <li>Acrescentar um menu de navegação na área semântica de topo (header)</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 Além disso, foi utilizada a API gratuita [ViaCEP](https://viacep.com.br/) para carregamento de dados de localização com base no CEP informado no formulário de cadastro utilizando JavaScript. [↗️](./scripts/buscacep.js)
 
@@ -107,6 +107,19 @@ Para a construção e execução do projeto foram utilizadas as seguintes tecnol
 </div>
 
 ## 👥 Autor
+
+<table>
+  <tr>
+    <th>Aluno</th>
+    <th>Matrícula</th>
+    <th>E-mail</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/guedesert" target="_blank">Emanuel Roseira Guedes</a></td>
+    <td>202212181407</td>
+    <td><a href="mailto:202212181407@alunos.estacio.br">📧</a></td>
+  </tr>
+</table>
 
 | Aluno                                                  | Matrícula    | E-mail                                          |
 | ------------------------------------------------------ | ------------ | ----------------------------------------------- |
