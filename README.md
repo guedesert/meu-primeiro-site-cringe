@@ -108,19 +108,6 @@ Para a construção e execução do projeto foram utilizadas as seguintes tecnol
 
 ## 👥 Autor
 
-<table>
-  <tr>
-    <th>Aluno</th>
-    <th>Matrícula</th>
-    <th>E-mail</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/guedesert" target="_blank">Emanuel Roseira Guedes</a></td>
-    <td>202212181407</td>
-    <td><a href="mailto:202212181407@alunos.estacio.br">📧</a></td>
-  </tr>
-</table>
-
 | Aluno                                                  | Matrícula    | E-mail                                          |
 | ------------------------------------------------------ | ------------ | ----------------------------------------------- |
 | [Emanuel Roseira Guedes](https://github.com/guedesert) | 202212181407 | [📧](mailto:202212181407@alunos.estacio.br) |
