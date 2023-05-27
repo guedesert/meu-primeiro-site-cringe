@@ -12,7 +12,7 @@
 
 ## 📋 Projeto
 
-Implementação de um site com o objetivo de fornecer receitas culinárias implementado apenas com HTML e CSS, utilizando elementos do framework Bootstrap, apresentado como Missão Prática do **`Nível 1: Meu primeiro site cringe`** do **`Mundo 2`** do curso de **`Desenvolvimento Full Stack`** da **`Estácio`**, do semestre de **`2023.2`**, sob a tutoria de Claudio Piccolo Fernandes.
+Site com o objetivo de fornecer receitas culinárias implementado com HTML e CSS, utilizando elementos do framework Bootstrap, apresentado como Missão Prática do **`Nível 1: Meu primeiro site cringe`** do **`Mundo 2`** do curso de **`Desenvolvimento Full Stack`** da **`Estácio`**, do semestre de **`2023.2`**, sob a tutoria de Claudio Piccolo Fernandes.
 
 Projeto elaborado de acordo com as diretrizes especificadas para a Missão Prática, que podem ser conferidas [**`clicando aqui`**](https://sway.office.com/s/5vAvCdLPxlEl682F/embed).
 
